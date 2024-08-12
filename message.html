@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ronald Andrew le Roux - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light grey background for professionalism */
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #2c3e50; /* Dark blue-grey background */
+            color: #ecf0f1; /* Light text color for contrast */
+            text-align: center;
+            padding: 2rem 0;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for header */
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            letter-spacing: 1px; /* Increased letter spacing for elegance */
+        }
+
+        nav {
+            margin-top: 1rem; /* Adjusted margin */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #ecf0f1; /* Light color for text */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.3s;
+            display: inline-block;
+            background: #34495e; /* Tab background color */
+        }
+
+        nav ul li a:hover {
+            background: #1abc9c; /* Bright hover effect for tabs */
+            transform: scale(1.1);
+        }
+
+        main {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem 5rem;
+            flex: 1;
+        }
+
+        .tab {
+            background: #ffffff; /* White background for tabs */
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for tabs */
+            margin-bottom: 2rem;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .tab:hover {
+            transform: scale(1.03); /* Slight enlargement on hover */
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+        }
+
+        h2 {
+            color: #2c3e50; /* Darker text color for section titles */
+            border-bottom: 2px solid #bdc3c7; /* Light border for section titles */
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info p, .contact-info a {
+            margin: 0.5rem 0;
+            color: #333;
+        }
+
+        .contact-info a {
+            text-decoration: none;
+            color: #2980b9; /* Blue color for links */
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        #backToTopBtn {
+            display: none; /* Hidden by default */
+            position: fixed; /* Fixed position */
+            bottom: 20px; /* Place the button at the bottom of the page */
+            right: 30px; /* Place the button 30px from the right */
+            z-index: 99; /* Make sure it does not overlap */
+            border: none; /* Remove borders */
+            outline: none; /* Remove outline */
+            background-color: #2c3e50; /* Set a background color */
+            color: white; /* Text color */
+            cursor: pointer; /* Add a mouse pointer on hover */
+            padding: 15px; /* Some padding */
+            border-radius: 10px; /* Rounded corners */
+            font-size: 18px; /* Increase font size */
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+        }
+
+        #backToTopBtn:hover {
+            background-color: #1abc9c; /* Add a dark-grey background on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Janco Ritchie </h1>
+        <nav>
+            <ul>
+                <li><a href="#about" class="nav-link">About Me</a></li>
+                <li><a href="#resume" class="nav-link">Resume/CV</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="about" class="tab">
+            <h2>About Me</h2>
+            <p>I am a 22-year-old forth year student at Northwest University, I am busy doing my Honors in Urban and Regional planning. I attended high school at Potchefstrrom Gimnasium and grew up in Potchefstroom, while having to move around a lot before we settled in Potchefstroom. My strong porblem solving skills support my efficient decision-making processes. I find interest in activities that challenge me, improving will never be a bad thing. I am a dedicated worker that would do what is expected of me in the most efficient manner.
+            My hobbies are playing field hockey, video games, listening to music, and drawing to develop creative skills.</p>
+            <p><a href="https://github.com/Andrew-le-Roux/Virtual-CV/raw/ecdbd1552e3d3c36287594311f8228575d7fef87/CV%20Resume.pdf" download></a></p>
+        </div>
+
+        <div id="resume" class="tab">
+            <h2>Resume/CV</h2>
+            <p><strong>Education:</strong></p>
+            <p>National Senior Certificate</p>
+            <ul>
+                <li>Achieved in 2020</li>
+                <li>School: Potchefstroom Gimnasium</li>
+                <li>Subjects: Mathematics, Physical Science, RTT, IGO.</li>
+            </ul>
+            <p>Bsc Urban and Regional Planning</p>
+            <ul>
+                <li>Currently studying Urban and Regional Town planning at NWU. I am in my fourth year, expecting to graduate in 2024.</li>
+            </ul>
+
+            <p><strong>Work Experience:</strong></p>
+            <ul>
+                <li>Bellville Golf Club</li>
+            </ul>
+        </div>
+
+        <div id="projects" class="tab">
+            <h2>Projects</h2>
+            <p><strong> Property Development project (NWU):</strong></p>
+            <ul>
+                <li>An individual project were I had to calculate all building costs and professional fees in order to gain a loan from the bank for a property development.</li>
+            </ul>
+            <p><strong>Housing project (NWU):</strong></p>
+            <ul>
+                <li>As a practical project we designed and presented a afforable integrated housing development on extent of erf 575, Sandown EXT 49. This was located between Nelson Mandela Square and the Gaitrain station. </li>
+            </ul>
+            <p><strong>Redvelopment project (NWU):</strong></p>
+            <ul>
+                <li> This project entailed that we redevelop the CBD area of Carletonville, to be more safe and secure as well as vibrant and sustainable.</li>
+            </ul>
+            <p><strong>Rezoning Project (NWU):</strong></p>
+            <ul> 
+            <li> We had to apply for a rezoning of a property within Potchefstroom, handling all the righ procedures and applications</li>
+            </ul>
+
+        </div>
+
+        <div id="skills" class="tab">
+            <h2>Skills</h2>
+            <ul>
+                <li>Project Management.</li>
+                <li>Strong problem-solving and analytical skills.</li>
+                <li>Excellent communication and collaboration abilities.</li>
+                <li>Experience with web development (HTML).</li>
+                <li>Adaptability and willingness to learn.</li>
+                <li>Experience with guitar.</li>
+                <li>Well known knowledge in Word, Excel, Powerpoint. </li>
+            </ul>
+        </div>
+
+        <div id="contact" class="tab">
+            <h2>Contact Information</h2>
+            <div class="contact-info">
+                <p><span class="icon">📧</span>Email: <a href="jancoritchie@gmail.com">jancoritchie@gmail.com</a></p>
+                <p><span class="icon">📞</span>Phone: <a href="tel:+27713529585">0713529585</a></p>
+                <p><span class="icon">🔗</span><a href="" target="_blank"></a></p>
+                <p><span class="icon">🔗</span><a href="" target="_blank"></a></p>
+            </div>
+        </div>
+    </main>
+
+    <button onclick="topFunction()" id="backToTopBtn" title="Go to top">Top</button>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("backToTopBtn").style.display = "block";
+            } else {
+                document.getElementById("backToTopBtn").style.display = "none";
+            }
+        }
+
+        // Smooth scrolling to the top of the document
+        function topFunction() {
+            document.documentElement.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+    </script>
+</body>
+</html>
